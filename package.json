@@ -1,0 +1,39 @@
+{
+  "name": "strava-ultimate-iron-man",
+  "version": "1.0.0",
+  "description": "This projet is a NodeJS app that calculate the best workout routine based on the best athlets in the world.",
+  "main": "index.ts",
+  "scripts": {
+    "start": "node --import=tsx .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YoungMame/strava-ultimate-iron-man.git"
+  },
+  "keywords": [
+    "strava",
+    "api",
+    "data",
+    "fetch",
+    "algorithm"
+  ],
+  "author": "YoungMame",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YoungMame/strava-ultimate-iron-man/issues"
+  },
+  "homepage": "https://github.com/YoungMame/strava-ultimate-iron-man#readme",
+  "dependencies": {
+    "axios": "^1.8.4",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "loglevel": "^1.9.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.14",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2"
+  }
+}
